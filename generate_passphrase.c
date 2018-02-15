@@ -5,7 +5,7 @@
  * Generates random passphrases of lengths given from command line arguments.
  * This code uses the Diceware 8K word list in C, downloaded from
  *   http://world.std.com/%7Ereinhold/diceware.html
- *     
+ *
  *
  * Command line arguments:
  *   <length1> - number of words to generate for pass phrase 1.
@@ -28,7 +28,7 @@
 
 /**
  * print_passphrase - Generates a random passphrase with <len> number of words.
- *                    This function resets the random seed by calling 
+ *                    This function resets the random seed by calling
  *                    srandomdev() each time it's called.
  * @len: the length of pass phrase in words, should be 4 or more
  */
@@ -55,7 +55,7 @@ void print_passphrase(int len)
 
     printf("%s", getDiceWd(0 + rand));
   }
-  
+
   putchar('\n');
 }
 
