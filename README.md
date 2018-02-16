@@ -7,6 +7,9 @@ command line arguments.
 This code uses the Diceware 8K word list in C, downloaded from 
 http://world.std.com/%7Ereinhold/diceware.html
 
+Random numbers are generated using `random()`, and `srandomdev()` is used to
+initialise the state, which *should* be good enough for cryptographic use.
+
 Compiling and running
 ---------------------
 ```
@@ -34,3 +37,4 @@ limb kiva lana 71st goo
 rid africa al key chopin korea
 fake prong oh toad grail 4k usury
 ```
+
