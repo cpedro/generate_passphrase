@@ -7,7 +7,8 @@ command line arguments.
 This code uses the Diceware 8K word list in C, downloaded from 
 http://world.std.com/%7Ereinhold/diceware.html
 
-# Compiling and running
+Compiling and running
+---------------------
 ```
 $ gcc diceware8k.c generate_passphrase.c -o genpass
 ```
