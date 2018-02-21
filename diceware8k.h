@@ -1,3 +1,0 @@
-
-char *getDiceWd(int n);
-

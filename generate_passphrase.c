@@ -23,8 +23,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <limits.h>
-#include "diceware8k.h"
 
+
+/*
+ * getDiceWd - defined in diceware8k.c
+ */
+char *getDiceWd(int n);
 
 /**
  * print_passphrase - Generates a random passphrase with <len> number of words.
