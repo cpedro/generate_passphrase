@@ -1,5 +1,4 @@
-Generate Passphrase
-===================
+# Generate Passphrase
 
 Standalone C program that generates random passphrases of lengths given from 
 command line arguments.
@@ -10,8 +9,8 @@ http://world.std.com/%7Ereinhold/diceware.html
 Random numbers are generated using `random()`, and `srandomdev()` is used to
 initialise the state, which *should* be good enough for cryptographic use.
 
-Compiling and running
----------------------
+## Compiling and running
+
 ```
 $ gcc diceware8k.c generate_passphrase.c -o genpass
 ```
