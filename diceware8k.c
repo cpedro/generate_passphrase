@@ -3,7 +3,8 @@
 	2000-10-23, 
     rev. 2015-2-8 (fix C encoding of ' """" ') */
 
-char* Dicewds8k[] =
+char* getDiceWd (int n);
+char * Dicewds8k[] =
 {"a",
 "a&p",
 "a's",
